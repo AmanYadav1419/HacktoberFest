@@ -4,9 +4,7 @@ a = int(input("Enter Index of matrix:-"))
 b = []
 print("Enter the Matrix Element Rowwise:-")
 for i in range(a):
-    c = []
-    for j in range(a):
-        c.append(int(input(f"Enter the {i+1}row {j+1}column Entry:-")))
+    c = [int(input(f"Enter the {i+1}row {j+1}column Entry:-")) for j in range(a)]
     b.append(c)
 
 

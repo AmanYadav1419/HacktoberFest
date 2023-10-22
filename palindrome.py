@@ -10,9 +10,7 @@ def isPalindrome(s):
 
 # Driver code
 s = "123321"
-ans = isPalindrome(s)
-
-if ans:
+if ans := isPalindrome(s):
 	print("Yes")
 else:
 	print("No")

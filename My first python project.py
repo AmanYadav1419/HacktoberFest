@@ -12,7 +12,7 @@ print("Now i will square the number you give me")
 
 a = input("Enter a number :")
 a = int(a)
-sq = a*a
+sq = a**2
 print("The square of your number is",sq)
 
 print("Thanks for using me :)")

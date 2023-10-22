@@ -44,9 +44,7 @@ def print_matrix(z):    # This function print the values of list in the list in 
 def transpose(f):
     u = []
     for w in range(len(f[0])):
-        v = []
-        for q in range(len(f)):
-            v.append(f[q][w])
+        v = [f[q][w] for q in range(len(f))]
         u.append(v)
     return u
 

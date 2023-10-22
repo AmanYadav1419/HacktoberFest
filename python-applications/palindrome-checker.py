@@ -10,12 +10,11 @@ def PALINDROME():
                 dig=n%10
                 rev=rev*10+dig
                 n //= 10
+        print()
         if temp == rev:
-            print()
-            print("Its a palindrome !!!!!")
+                print("Its a palindrome !!!!!")
         else:
-            print()
-            print("Its not a palindrome ............")
+                print("Its not a palindrome ............")
         print("_____________________________________________")
 
         print()

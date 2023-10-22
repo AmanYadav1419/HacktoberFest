@@ -460,8 +460,7 @@ def LinearRegressionLSM(Xtrn,ytrn,shape):
 
 def predict_LSM(x,we):
     x=np.concatenate([np.ones((x.shape[0],1),dtype=x.dtype),x], axis=1)
-    yhat=x.dot(we)
-    return yhat
+    return x.dot(we)
 
 
 def sklearnKNNRegressor(Xtrn,ytrn,Xcv,ycv,neighbors):
