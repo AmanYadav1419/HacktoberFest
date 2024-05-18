@@ -5,5 +5,5 @@
 # characters of which we want ASCII value 
 
 c = 'g'
-# print the ASCII value of assigned character in c 
-print("The ASCII value of '" + c + "' is", ord(c)) 
+# print the ASCII value of assigned character in c
+print(f"The ASCII value of '{c}' is", ord(c)) 

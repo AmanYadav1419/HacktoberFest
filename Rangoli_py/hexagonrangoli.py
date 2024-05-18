@@ -18,7 +18,7 @@ while x < (410):
  colormode(255)
  pencolor((red[x % 6]),(green[x % 6]),(blue[x % 6]))
  fd(30+x)
- rt(60.5)   
- x = x+1
+ rt(60.5)
+ x += 1
  
 
